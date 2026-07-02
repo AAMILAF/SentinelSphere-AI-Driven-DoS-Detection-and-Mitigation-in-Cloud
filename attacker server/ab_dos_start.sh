@@ -3,7 +3,7 @@
 set -e
 
 ### CONFIG ###
-TARGET_IP="<YOUR_TARGET_SERVER_IP>" # Replace YOUR_TARGET_SERVER_IP with the IP address of your target server.
+TARGET_IP="YOUR_TARGET_SERVER_IP" # Replace YOUR_TARGET_SERVER_IP with the IP address of your target server.
 PORT="8080"
 URL="http://${TARGET_IP}:${PORT}/"
 
